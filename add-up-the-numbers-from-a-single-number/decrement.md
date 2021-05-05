@@ -7,9 +7,10 @@ function addUp(num) {
   return a;
 }
 ```
+
 **Behaviour**
 decrements;
-works from parameter to 1, decreases i(our last term, the term we give) by one; 
+works from parameter to 1, decreases i(our last term, the term we give) by one;
 
 **Strategy:**
 
