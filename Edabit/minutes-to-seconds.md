@@ -1,34 +1,34 @@
-# [challengeName](link-to-challenge)
+# [Convert Minutes into Seconds](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
 
 ```
-describe the function's behavior in your own words.
-explain why someone might want to use this function
+This function takes an integer minutes and converts it to seconds.
 ```
 
 ## Syntax
 
-> functionName(`type`, `type`, ...) -> `type`
+> convert(`number`) -> `number`
 
 ### Parameters
 
-**paramName**: `paramType`
+**minutes**: `number`
 
 ```
-describe the parameter
+TIt should be an integer representing an amount of minutes that will be converted in seconds.
 ```
 
-### Return Value: `type`
+### Return Value: `number`
 
-```
-describe the return value
+```JS
+The number of seconds contained in the mentioned number of minutes.
 ```
 
 ## Test Cases
 
-```
-copy in the test cases from the original challenge
-
-if you write your own test cases in a sandbox file, include those too
+```JS
+Test.assertEquals(convert(6), 360)
+Test.assertEquals(convert(4), 240)
+Test.assertEquals(convert(8), 480)
+Test.assertEquals(convert(60), 3600)
 ```
 
 ## Use Cases
