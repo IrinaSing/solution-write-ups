@@ -199,11 +199,6 @@ date[1] == "Dec"
 
 ### Inspired By
 
-```
-which solutions inspired your solution?
-what did you take from each one?
-```
-
 ### References
 
 ---
@@ -211,15 +206,6 @@ what did you take from each one?
 ## Retrospective
 
 ```
-write any notes to help you review this exercise later, and to help others' study it.
-
-this might include:
-
-- good ideas to use later in your own code
-- less good ideas to avoid in your own code
-- new vocabulary you learned
-- the most important thing(s) you learned
-- something that you still don't understand but want to keep studying
-- something that surprised you
-- tricks you will want to remember and use later
+That was useful to learn about date, it's methods and convert to strings in javascript. It is definitely important.
+RegExp also requires further investigation, I don't understand it in details yet although I use it by copy-paste.
 ```
